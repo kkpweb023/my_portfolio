@@ -1,11 +1,34 @@
+import React, { createContext, useState } from "react";
 import './App.css';
-import Navbar from './NavBar/Navbar';
+import Home from './Components/Home/Home';
+import NavBar from './Navbar/NavBar';
+
+
+export const MyContext = createContext();
 
 function App() {
+
+  const [showMob, setShowMob] = useState(false);
+
+
   return (
-    <div className="App">
-        <Navbar />
-    </div>
+
+    <MyContext.Provider
+      value={{
+        showMob: showMob,
+        setShowMob: setShowMob,
+      }}
+    >
+
+
+        <NavBar />
+        <Home />
+
+
+    </MyContext.Provider>
+
+
+
   );
 }
 

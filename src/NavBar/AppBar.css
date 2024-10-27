@@ -1,0 +1,49 @@
+
+.app_menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: rgb(32, 31, 31);
+    margin-top: 10px;
+  }
+
+  .app_menu > span {
+    display: block;
+    font-size:20px;
+    margin-left: 80px;
+    line-height: 36px;
+   
+}
+
+
+.offcan_nav{
+
+   background-color:rgb(246, 246, 243);
+    font-size:22px;    
+    width:340px;
+    
+
+}
+ 
+.app_menu > small {
+    display: block;
+    font-size: 10px;
+  }
+
+  
+.off_body{
+
+    margin-top:60px;
+}
+
+
+.header{
+
+    font-size: medium;
+    padding-bottom:6px;
+    margin-top: -12px;
+}
+
+
+

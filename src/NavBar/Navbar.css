@@ -1,0 +1,15 @@
+.nav_bar{
+  margin-left: 500px;
+}
+
+.logo{
+  margin-left: 20px;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@media (max-width: 767px) {
+  .nav_bar {
+    display: none;
+  }
+}
