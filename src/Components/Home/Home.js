@@ -7,8 +7,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 
+
 const Home = () => {
   return (
+
+    <>
     <div className="Home_div">
 
       <div className="home_content">
@@ -40,24 +43,17 @@ const Home = () => {
             <IoCall />
            
           </div>
-
+         
 
         </div>
-
-
-
-
-
-
+        
         <img src={ProfileLogo}  alt='study_pic' className='img' />
 
       </div>
-
-    
-
-
     </div>
+    <hr style={{position:"relative",top:'560px'}}/>
+   
+    </>
   );
 };
-
 export default Home;
