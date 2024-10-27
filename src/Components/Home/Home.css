@@ -98,6 +98,10 @@
        
   }
   
+
+  .proffesion{
+    font-size:20px;
+  }
  
   
   
@@ -129,24 +133,20 @@
           display: flex;
           flex-direction: column;
       }
-
       .Quates_Content{
-        margin-left:100px;
+        margin-left:80px;
         order: 2;
       }
       .Quates{
-
         font-size: 25px;
-
       }
-
-
 
      .img{
       width:300px;
       height:300px;
       order: 1;
       margin-top: -5px;
+      margin-left: -20px;
      } 
      
      .head{
@@ -157,9 +157,6 @@
        width:140%;
        text-align: justify;
      }
-
-
-
   }
   
   
@@ -169,12 +166,31 @@
 
 
 
-  @media (max-width:440px) {
+  @media (max-width:450px) {
   
+    .img{
+      width:200px;
+      height:190px;
+     } 
+
      .head{
-          width:70%;
-          font-size:30px;
-  
-      }
+      font-size:18px;
+      width: 100%;
+    }  
+
+
+    .Quates{
+      width: 150%;
+    }
+
+    .proffesion{
+      width: 150%;
+      font-size: 15px;
+    }
+
+    .message{
+      width:150%;
+   
+    }
   
   }

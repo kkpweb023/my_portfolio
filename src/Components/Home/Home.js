@@ -15,7 +15,7 @@ const Home = () => {
         <div className="Quates_Content">
           <div className="head">Hello,my name is</div>
           <div className="Quates">Kaushal Kishor Pandey</div>
-          <div style={{fontSize:'20px'}}>
+          <div className="proffesion">
             <span>And I'm a </span>
             <ReactTyped
                 strings={["Computer Teacher","Maths Teacher","Coder","Network Engineer"]}
@@ -23,6 +23,7 @@ const Home = () => {
                 backSpeed={50}
                 loop={true}
                 style={{color:"red",fontWeight:'bold'}}
+
             />
           </div>
           <div style={{marginTop:"20px"}} className="message">
