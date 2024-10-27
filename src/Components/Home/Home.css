@@ -151,6 +151,7 @@
       font-size: 25px;
     }
 
+
    .img{
     width:320px;
     height:300px;
@@ -168,10 +169,8 @@
      text-align: justify;
    }
 
-   .home_hr{
-
-    position: relative;
-    top:630px;
+   .home_hr{ 
+    margin-bottom:100px;
    }
 }
 
@@ -179,16 +178,27 @@
   @media (max-width:580px) {
   
      .img{
-      width:300px;
-      height:300px;
+      width:280px;
+      height:280px;
       margin-top: -5px;
       margin-left: -20px;
+
      } 
      
      
      .message{
        width:140%;
        text-align: justify;
+
+     }
+
+
+     .icons{
+
+      margin-top: 20px;
+    }
+     .home_hr{
+      margin-bottom:100px;
      }
   }
   
@@ -220,6 +230,10 @@
    
     }
 
+    .home_hr{
+      margin-bottom:100px;
+     }
+
   }
 
 
@@ -234,6 +248,10 @@
       font-size: 15px;
    
     }
+
+    .home_hr{
+      margin-bottom:100px;
+     }
   }
 
 
@@ -243,4 +261,14 @@
       width:230px;
       height:210px;
      } 
+
+     .home_hr{
+      margin-bottom:80px;
+     }
+
+
+     .icons{
+
+      margin-top:40px;
+    }
   }
