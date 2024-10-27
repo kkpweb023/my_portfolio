@@ -51,7 +51,7 @@ const Home = () => {
 
       </div>
     </div>
-    <hr style={{position:"relative",top:'580px'}}/>
+    <hr className="home_hr"/>
    
     </>
   );
