@@ -199,6 +199,8 @@
     }
      .home_hr{
       margin-bottom:100px;
+      position: relative;
+      top: 600px;
      }
   }
   
@@ -232,6 +234,8 @@
 
     .home_hr{
       margin-bottom:100px;
+      position: relative;
+      top: 580px;
      }
 
   }
@@ -251,6 +255,8 @@
 
     .home_hr{
       margin-bottom:100px;
+      position: relative;
+      top: 580px;
      }
   }
 
@@ -264,6 +270,8 @@
 
      .home_hr{
       margin-bottom:80px;
+      position: relative;
+      top: 580px;
      }
 
 
