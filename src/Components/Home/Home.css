@@ -194,3 +194,15 @@
     }
   
   }
+
+
+  
+  @media (max-width:420px) {
+
+    .message{
+      width:130%;
+      font-size: 14px;
+   
+    }
+
+  }
