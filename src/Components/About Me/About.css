@@ -107,8 +107,9 @@
     .about_hr{
 
         position: relative;
-        top: 90px;
+        top:120px;
         width: 135%;
+        margin-bottom: 50px;
 
     }
 
@@ -155,8 +156,8 @@
     .about_hr{
 
         position: relative;
-        top:40px;
-        width:140%;
+        top:50px;
+        width:142%;
 
     }
 }

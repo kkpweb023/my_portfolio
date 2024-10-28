@@ -153,8 +153,8 @@
 
 
    .img{
-    width:320px;
-    height:300px;
+    width:300px;
+    height:280px;
     order: 1;
     margin-top: -4px;
 
@@ -167,15 +167,22 @@
    .message{
      width:100%;
      text-align: justify;
+     font-size:16px;
+   }
+
+   .icons{
+
+    margin-top:20px;
+
    }
 
    .home_hr{ 
-    margin-bottom:100px;
+    margin-bottom:20px;
    }
 }
 
 
-  @media (max-width:580px) {
+  @media (max-width:620px) {
   
      .img{
       width:280px;
@@ -198,15 +205,15 @@
       margin-top: 20px;
     }
      .home_hr{
-      margin-bottom:100px;
+      margin-bottom:50px;
       position: relative;
-      top: 600px;
+      top: 570px;
      }
   }
   
 
 
-  @media (max-width:450px) {
+  @media (max-width:480px) {
   
     .img{
       width:270px;
