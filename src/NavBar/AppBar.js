@@ -87,7 +87,7 @@ function AppBar() {
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span> Skills</span>
+                        <span>Education</span>
                         </Nav.Link>
 
 
@@ -98,7 +98,7 @@ function AppBar() {
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span> Exprience</span>
+                        <span>Exprience</span>
                         </Nav.Link>
 
 
@@ -109,7 +109,7 @@ function AppBar() {
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span> Resume</span>
+                        <span>Skills</span>
                         </Nav.Link>
 
 
@@ -121,7 +121,7 @@ function AppBar() {
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span> Protfolio</span>
+                        <span>Protfolio</span>
                         </Nav.Link>
 
 
@@ -132,7 +132,7 @@ function AppBar() {
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span> Contact Us</span>
+                        <span>Contact Us</span>
                         </Nav.Link>
 
                     </Nav>

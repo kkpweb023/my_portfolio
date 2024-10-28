@@ -25,9 +25,9 @@ const NavBar = () =>{
                     <Nav className="me-auto nav_bar">
                         <Nav.Link as={NavLink} to='/' className="menu">Home</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">About Me</Nav.Link>
-                        <Nav.Link as={NavLink} to='/' className="menu">Skills</Nav.Link>
+                        <Nav.Link as={NavLink} to='/' className="menu">Education</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">Exprience</Nav.Link>
-                        <Nav.Link as={NavLink} to='/' className="menu">Resume</Nav.Link>
+                        <Nav.Link as={NavLink} to='/' className="menu">Skills</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">Protfolio</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">Contact Us</Nav.Link>
                     </Nav>

@@ -1,8 +1,8 @@
 import React from "react";
-import './Skills.css';
+import './Exprience.css';
 
 
-const Skills = () =>{
+const Exprience = () =>{
 
     return(
 
@@ -12,4 +12,4 @@ const Skills = () =>{
     );
 };
 
-export default Skills;
+export default Exprience;

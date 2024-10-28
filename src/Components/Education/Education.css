@@ -1,0 +1,233 @@
+.edu_div{
+
+    width: 98vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:380px;
+
+}
+
+.edu{
+
+    position: absolute;
+    top:30px;
+    margin-left: -150px;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.edu_contents{
+
+    display: flex;
+    position: relative;
+    left:60px;
+        
+}
+
+.secondary{
+    border-left: 2px solid red;   
+}
+.bachelor{
+    border-left: 2px solid red;
+}
+
+.box{
+
+    border: 1px solid #c0baba;              
+    padding: 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-right:60px;
+    margin-left:20px;
+    position: relative;
+}
+
+.box:hover{
+
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent
+}
+
+.box::before{
+
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    border:2px solid rgb(243, 240, 240);
+    position:absolute;
+    top:-2px;
+    right: calc(100% + 14px);
+   
+}
+
+.box > h5{
+    color: red;
+}
+
+
+
+@media (max-width:770px) {
+
+
+    .edu_div{
+
+        width: 97vw;
+
+    }
+
+    .edu_contents{
+        display: block;
+        left:-20px;
+        top:35px;
+    }
+
+    .box{
+
+        padding:8px;
+        margin-right:0px;
+        margin-top: -25px;
+        
+    }
+
+    .box>h5{
+
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+
+    .box>h4{
+
+        font-size:20px;
+        font-weight: bold;
+    }
+
+    .box>h6{
+
+        font-size:15px;
+       
+    }
+
+    .secondary{
+        margin-bottom:30px;   
+    }
+
+    .edu{
+
+        position: absolute;
+        top:26px;
+        margin-left: -40px;
+        font-size:30px;
+    }
+    
+}
+
+@media (max-width:580px) {
+
+
+    .edu_div{
+
+        width: 94vw;
+
+    }
+
+    .edu_contents{
+        display: block;
+        left:0px;
+        top:18px;
+    }
+
+    .box{
+
+        padding:7px;
+        
+    }
+
+    .box>h5{
+
+        font-size: 13px;
+    }
+
+    .box>h4{
+
+        font-size:18px;
+    }
+
+    .box>h6{
+
+        font-size:13px;
+       
+    }
+
+    .edu{
+
+        position: absolute;
+        top:18px;
+        margin-left: -40px;
+        font-size:25px;
+    }
+    
+}
+
+@media (max-width:450px) {
+
+
+    .edu_div{
+
+        width: 92vw;
+
+    }
+
+    .edu_contents{
+        left:0px;
+        top:-5px;
+    }
+
+    .box{
+
+        padding:6px;
+        
+    }
+
+    .box>h5{
+
+        font-size: 12px;
+    }
+
+    .box>h4{
+
+        font-size:16px;
+    }
+
+    .box>h6{
+
+        font-size:13px;
+       
+    }
+
+    .edu{
+
+        position: absolute;
+        top:-15px;
+    }
+
+
+    .box::before{
+
+        width: 14px;
+        height: 14px;
+        right: calc(100% + 15px);
+       
+    }
+
+ .bachelor,.secondary{
+
+    margin-left: 15px;
+ }
+    
+}

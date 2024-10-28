@@ -18,10 +18,10 @@ const About = () =>{
                 <p className="about_profile">
                     Hello world! I am Kaushal Kishor Pandey, a computer and math teacher based in Uttar Pradesh. I have been teaching math and computer science privately and in the state sector for many years, with plenty of experience working with students who find the subject challenging. I offer both residential and online tutorials to students, and I very much enjoy working with students and seeing their confidence in the subject improve over time.
                 </p>
-                
+            
             </div>
 
-            <hr className="about_hr"></hr>
+          <hr className="about_hr"></hr>
         </div>
     );
 };
