@@ -1,5 +1,149 @@
-.skills_div{
+.heading{
+
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right:60px;
+
+}
+
+
+.skills{
 
     position: relative;
-    bottom: -400px;
+    top: 380px;
+    padding-bottom: 7rem;
+}
+
+.skills .skills-row{
+
+    display: flex;
+    width: 90%;
+    position: relative;
+    left:100px;
+    height:80vh;
+
+
+}  
+
+.skills-row .skills-column{
+
+    flex: 1rem;
+    position: relative;
+    top: 50px;
+   
+}
+
+
+.skills-column .title{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 .8rem;
+
+}
+
+
+.skills-box .skills-content{
+
+    position:relative;
+    border: .1rem solid rgb(77, 12, 12);
+    border-radius: .4rem;
+    padding: .3rem .5rem;
+    width:80%;
+}
+
+
+
+.skills-content .progress_div{
+
+    padding: .5rem 0;
+
+}
+
+.skills-content .progress_div .h_3{
+
+    font-size: .9rem;
+    display: flex;
+    justify-content:space-between;
+    font-weight: bold;
+}
+
+.skills-content .progress_div .h_3 span{
+
+    color: red;
+    font-weight: bold;
+}
+
+
+.skills-content .progress_div .bar{
+
+    height: 1rem;
+    border-radius: .3rem;
+    border: .1rem solid rgb(20, 20, 20);
+    padding: .2rem;
+    
+}
+
+
+.skills-content .progress_div .bar span{
+
+    display: block;
+    height: 100%;
+    border-radius: .2rem;
+    background-color: rgb(223, 26, 26);
+}
+
+.skills-column:nth-child(1) .skills-content .progress_div:nth-child(1) .bar span{
+
+    width: 90%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress_div:nth-child(2) .bar span{
+
+    width: 70%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress_div:nth-child(3) .bar span{
+
+    width: 50%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress_div:nth-child(4) .bar span{
+
+    width: 65%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress_div:nth-child(5) .bar span{
+
+    width: 40%;
+}
+
+
+
+
+
+.skills-column:nth-child(2) .skills-content .progress_div:nth-child(1) .bar span{
+
+    width: 95%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress_div:nth-child(2) .bar span{
+
+    width: 75%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress_div:nth-child(3) .bar span{
+
+    width: 50%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress_div:nth-child(4) .bar span{
+
+    width: 70%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress_div:nth-child(5) .bar span{
+
+    width: 40%;
 }
