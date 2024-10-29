@@ -1,0 +1,335 @@
+.exp_div{
+
+    width: 98vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:380px;
+
+}
+
+.exp{
+
+    position: absolute;
+    top:30px;
+    margin-left: -150px;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.exp_contents{
+
+    display: flex;
+    position: relative;
+    left:60px;
+        
+}
+
+.company{
+    border-left: 2px solid red; 
+    height: 173px; 
+}
+.teaching{
+    border-left: 2px solid red;
+    height: 173px; 
+}
+
+.box_exp{
+
+    border: 1px solid #c0baba;              
+    padding:25px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-right:60px;
+    margin-left:20px;
+    position: relative;
+}
+
+.box_exp:hover{
+
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent
+}
+
+.box_exp::before{
+
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    border:2px solid rgb(243, 240, 240);
+    position:absolute;
+    top:-2px;
+    right: calc(100% + 14px);
+   
+}
+
+.box_exp > h5{
+    color: red;
+}
+
+
+.exp_hr{
+
+    position:absolute;
+    bottom:20px;
+    width:100vw;
+    right:0px;
+ }
+
+
+
+@media (max-width:770px) {
+
+
+    .exp_div{
+
+        width: 97vw;
+
+    }
+
+    .exp_contents{
+        display: block;
+        left:-20px;
+        top:-20px;
+    }
+
+    .box_exp{
+
+        padding:15px;
+        margin-right:0px;
+        margin-top: -25px;
+        
+    }
+
+    .box_exp>h5{
+
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    .box_exp>h4{
+
+        font-size:22px;
+        font-weight: bold;
+    }
+
+    .box_exp>h6{
+
+        font-size:17px;
+       
+    }
+
+    .company{
+        margin-bottom:80px; 
+        height: 150px;
+          
+    }
+
+    .teaching{
+        height: 150px;
+          
+    }
+
+
+    .exp{
+
+        position: absolute;
+        top:10px;
+        margin-left: -40px;
+        font-size:30px;
+    }
+
+    .exp_hr{
+        bottom:5px;
+        right:0px;
+     }
+    
+    
+}
+
+@media (max-width:580px) {
+
+
+    .exp_div{
+
+        width: 92vw;
+
+    }
+
+    .exp_contents{
+        display: block;
+        left:10px;
+        top:-18px;
+    }
+
+    .box_exp{
+
+        padding:8px;
+        
+    }
+
+    .box_exp>h5{
+
+        font-size: 13px;
+    }
+
+    .box_exp>h4{
+
+        font-size:18px;
+    }
+
+    .box_exp>h6{
+
+        font-size:13px;
+       
+    }
+
+
+
+    .company{
+        height: 120px;
+          
+    }
+
+    .teaching{
+        height: 120px;
+          
+    }
+
+    .exp{
+
+        position: absolute;
+        top:18px;
+        margin-left:-217px;
+        font-size:28px;
+    }
+
+    .exp_hr{
+        bottom:30px;
+        right:-18px;
+        
+     }
+    
+    
+}
+
+@media (max-width:450px) {
+
+
+    .exp_div{
+
+        width: 92vw;
+
+    }
+
+    .exp_contents{
+        left:8px;
+        top:-40px;
+    }
+
+    .box_exp{
+
+        padding:12px;
+        margin-top:-40px;
+        
+    }
+
+    .box_exp>h5{
+
+        font-size: 17px;
+    }
+
+    .box_exp>h4{
+
+        font-size:21px;
+    }
+
+    .box_exp>h6{
+
+        font-size:18px;
+       
+    }
+
+    .exp{
+
+        position: absolute;
+        top:-10px;
+        margin-left: -190px;
+    }
+
+
+    .box_exp::before{
+
+        width: 14px;
+        height: 14px;
+        right: calc(100% + 15px);
+       
+    }
+
+ .teaching,.company{
+
+    margin-left:18px;
+    height: 167px;
+ }
+
+
+
+ .exp_hr{
+    right:-15px;
+    
+ }
+    
+}
+
+
+
+@media (max-width:430px) {
+
+
+    .exp_contents{
+        left:8px;
+        top:-40px;
+    }
+
+    .box_exp{
+
+        padding:8px;
+        
+    }
+
+    .exp{
+        margin-left: -130px;
+    }
+
+
+
+    .box_exp>h5{
+
+        font-size: 15px;
+    }
+
+    .box_exp>h4{
+
+        font-size:18px;
+    }
+
+    .box_exp>h6{
+
+        font-size:16px; 
+    }
+
+    
+ .teaching,.company{
+    height: 150px;
+ }
+
+    .exp_hr{
+        right:-10px; 
+     }
+    
+}
