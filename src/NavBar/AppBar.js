@@ -121,7 +121,7 @@ function AppBar() {
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span>Protfolio</span>
+                        <span>Portfolio</span>
                         </Nav.Link>
 
 

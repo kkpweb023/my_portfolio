@@ -70,6 +70,15 @@
 }
 
 
+.edu_hr{
+
+    position:absolute;
+    bottom:20px;
+    width:100vw;
+    right:0px;
+ }
+
+
 
 @media (max-width:770px) {
 
@@ -83,7 +92,7 @@
     .edu_contents{
         display: block;
         left:-20px;
-        top:35px;
+        top:25px;
     }
 
     .box{
@@ -120,10 +129,16 @@
     .edu{
 
         position: absolute;
-        top:26px;
+        top:10px;
         margin-left: -40px;
         font-size:30px;
     }
+
+    .edu_hr{
+        bottom:5px;
+        right:0px;
+     }
+    
     
 }
 
@@ -132,13 +147,13 @@
 
     .edu_div{
 
-        width: 94vw;
+        width: 92vw;
 
     }
 
     .edu_contents{
         display: block;
-        left:0px;
+        left:10px;
         top:18px;
     }
 
@@ -168,9 +183,16 @@
 
         position: absolute;
         top:18px;
-        margin-left: -40px;
-        font-size:25px;
+        margin-left:-217px;
+        font-size:28px;
     }
+
+    .edu_hr{
+        bottom:30px;
+        right:-18px;
+        
+     }
+    
     
 }
 
@@ -184,36 +206,37 @@
     }
 
     .edu_contents{
-        left:0px;
-        top:-5px;
+        left:8px;
+        top:0px;
     }
 
     .box{
 
-        padding:6px;
+        padding:7px;
         
     }
 
     .box>h5{
 
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .box>h4{
 
-        font-size:16px;
+        font-size:17px;
     }
 
     .box>h6{
 
-        font-size:13px;
+        font-size:14px;
        
     }
 
     .edu{
 
         position: absolute;
-        top:-15px;
+        top:-10px;
+        margin-left: -190px;
     }
 
 
@@ -227,7 +250,41 @@
 
  .bachelor,.secondary{
 
-    margin-left: 15px;
+    margin-left:18px;
  }
+
+
+
+ .edu_hr{
+    right:-15px;
+    
+ }
+    
+}
+
+
+
+@media (max-width:430px) {
+
+
+    .edu_contents{
+        left:8px;
+        top:0px;
+    }
+
+    .box{
+
+        padding:8px;
+        
+    }
+
+    .edu{
+        margin-left: -130px;
+    }
+
+    .edu_hr{
+        right:-10px;
+        
+     }
     
 }

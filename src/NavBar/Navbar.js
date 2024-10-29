@@ -18,7 +18,7 @@ const NavBar = () =>{
                 >        
                 
                     <Navbar.Brand className="me-5 ms-3">
-                        <div className='logo'>Prot<span style={{color:'red'}}>folio</span></div>
+                        <div className='logo'>Port<span style={{color:'red'}}>folio</span></div>
                     </Navbar.Brand>
 
 

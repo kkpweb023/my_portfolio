@@ -57,6 +57,8 @@ const Education = () =>{
 
 
             </div>
+
+            <hr className="edu_hr"></hr>
         </div>
     );
 };
