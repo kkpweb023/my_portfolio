@@ -7,6 +7,7 @@ import Skills from "./Components/Skills/Skills";
 import Education from "./Components/Education/Education";
 import Experience from "./Components/Exprience/Experience";
 import Certificate from "./Components/Certificate/Certificate";
+import Project from "./Components/Project/Project";
 
 
 export const MyContext = createContext();
@@ -33,6 +34,7 @@ function App() {
         <Experience />
         <Skills />
         <Certificate />
+        <Project />
        
 
 

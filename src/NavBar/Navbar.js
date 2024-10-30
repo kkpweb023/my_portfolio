@@ -29,7 +29,7 @@ const NavBar = () =>{
                         <Nav.Link as={NavLink} to='/' className="menu">Exprience</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">Skills</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">Certificate</Nav.Link>
-                        <Nav.Link as={NavLink} to='/' className="menu">Protfolio</Nav.Link>
+                        <Nav.Link as={NavLink} to='/' className="menu">Project</Nav.Link>
                         <Nav.Link as={NavLink} to='/' className="menu">Contact Us</Nav.Link>
                     </Nav>
 

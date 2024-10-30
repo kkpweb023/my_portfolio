@@ -1,0 +1,275 @@
+.qutoes{
+
+    position: absolute;
+    top:5rem;
+    text-align: center;
+    margin-left:5rem;
+    font-weight: bold;
+    font-size: small;
+    border-bottom: 2px solid red;
+
+
+}
+
+.pro_div{
+
+    width: 90vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:220px;
+
+}
+
+.pro{
+
+    position: absolute;
+    top:20px;
+    margin-left:100px;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.pro_contents{
+
+    display: flex;
+    position: relative;
+    left:60px;
+    top: -50px;
+    
+        
+}
+
+.pro_box{
+             
+    padding:18px;
+    transition: all 0.4s;
+    margin-right:40px;
+    position: relative;
+    width: 15rem;
+    height: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round{
+
+    border: 5px solid red;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+   
+
+}
+
+
+.icon{
+
+    font-size:2.5rem;
+    position:absolute;
+    left:15px;
+
+}
+
+
+.pro_box>a{
+
+    font-weight: 700;
+    color: white;
+    background-color: rgb(213, 58, 58);
+    border-radius:18px;
+    padding: 4px;
+    width: 9rem;
+    border: none;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.pro_box>h5{
+
+    font-size: 19px;
+}
+
+
+.pro_hr{
+
+    position:absolute;
+    bottom:20px;
+    width:100vw;
+    right:-120px;
+ }
+
+
+
+/*================Media Queries ==========================*/
+
+
+@media (max-width:770px) {
+
+
+    .pro_div{
+        width: 80vw;
+    }
+
+    .pro_contents{
+       
+        flex-wrap:wrap;
+        top:18px;    
+    }
+
+    .pro{
+        top:10px;
+        margin-left:70px;
+    }
+
+    .pro_box{
+
+        padding:2px;
+        margin-right:0px;
+        margin-top:11px;
+        margin-left:11px;
+        width: 12rem;
+        height: 11rem;
+        
+    }
+
+
+    .pro_box>.round{
+        top:15px; 
+    }
+
+    .pro_box>h5{
+        font-size:17px;
+        margin-top: 20px;
+    }
+
+    .pro_hr{
+        bottom:5px;
+        right:-95px;
+     }
+    
+    
+}
+
+@media (max-width:580px) {
+
+    .qutoes{
+        margin-left:40px;
+    }
+
+
+    .pro{
+        left: -20px;
+    }
+
+
+    .pro_box{
+        width: 10rem;
+        height:10rem; 
+    }
+
+
+    .pro_box>.round{
+        top:10px;
+    }
+
+    .pro_box>h5{
+        font-size:16px;
+        margin-top:10px;
+    }
+
+    .pro_box>a{
+        width: 7rem;
+    }
+
+    .pro_hr{
+        right:-70px;
+     }
+}
+
+@media (max-width:450px) {
+
+    .pro_box{
+        margin-top:13px;
+        margin-left:13px;
+        width: 9rem;
+        height:10rem;
+        
+    }
+
+    .pro{
+        position: absolute;
+        top:10px;
+        margin-left:70px;
+    }
+
+    .pro_hr{
+        right:-60px;
+     }
+    
+}
+
+
+@media (max-width:430px) {
+
+    .pro_contents{
+        left:30px;
+    }
+
+    .pro_box>h5{
+        font-size:15px;
+    }
+
+    .pro{
+        top:10px;
+        margin-left:70px;
+    }   
+}
+
+
+
+@media (max-width:395px) {
+
+    .pro_contents{
+        left:20px;
+    }
+
+    .pro_box{
+        width: 7rem;
+        height:9rem;
+    }
+
+    .pro_box>h5{
+        font-size:12px;
+    }
+
+    .round{
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .pro_hr{
+
+        right: -30px;
+    }
+
+
+    .icon{
+
+        font-size:1.8rem;
+    
+    }
+
+    .pro_box>a{
+        width:5rem;
+    }
+    
+  
+}
