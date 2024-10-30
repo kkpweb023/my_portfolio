@@ -113,7 +113,18 @@ function AppBar() {
                         </Nav.Link>
 
 
+                        <Nav.Link
+                        as={NavLink}
+                        to="/"
+                        className="app_menu"
+                        onClick={() => setShowMob(false)}
+                        >
+                        <i className="bi bi-house-door-fill"></i>
+                        <span>Certificate</span>
+                        </Nav.Link>
 
+
+                        
                         <Nav.Link
                         as={NavLink}
                         to="/"

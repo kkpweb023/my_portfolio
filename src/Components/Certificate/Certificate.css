@@ -1,12 +1,12 @@
 .cert_div{
 
-    width: 98vw;
+    width: 90vw;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top:380px;
+    top:250px;
 
 }
 
@@ -14,7 +14,7 @@
 
     position: absolute;
     top:30px;
-    margin-left: -150px;
+    margin-left:100px;
     font-size:30px;
     font-weight: bold;
 }
@@ -27,17 +27,11 @@
         
 }
 
-.first_cert{
-    border-left: 2px solid red;   
-}
-.second_cert{
-    border-left: 2px solid red;
-}
 
-.box{
+.boxs{
 
-    border: 1px solid #c0baba;              
-    padding: 20px;
+    border: 2px solid red;              
+    padding:10px;
     transition: all 0.4s;
     cursor: pointer;
     margin-right:60px;
@@ -45,29 +39,12 @@
     position: relative;
 }
 
-.box:hover{
 
-    box-shadow: 0px 3px 12px 0px #ccc;
-    border: 1px solid transparent
+.boxs>h4{
+
+    font-size: 20px;
 }
 
-.box::before{
-
-    content: '';
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: red;
-    border:2px solid rgb(243, 240, 240);
-    position:absolute;
-    top:-2px;
-    right: calc(100% + 14px);
-   
-}
-
-.box > h5{
-    color: red;
-}
 
 
 .cert_hr{
@@ -75,7 +52,7 @@
     position:absolute;
     bottom:20px;
     width:100vw;
-    right:0px;
+    right:-120px;
  }
 
 
@@ -92,38 +69,30 @@
     .cert_contents{
         display: block;
         left:-20px;
-        top:25px;
+        top:18px;
     }
 
-    .box{
+    .boxs{
 
-        padding:8px;
+        padding:5px;
         margin-right:0px;
-        margin-top: -25px;
+        margin-top:10px;
+        line-height:10px;
         
     }
 
-    .box>h5{
 
-        font-size: 17px;
+
+    .boxs>h4{
+
+        font-size:17px;
         font-weight: bold;
     }
 
+    .boxs>h6{
 
-    .box>h4{
-
-        font-size:20px;
-        font-weight: bold;
-    }
-
-    .box>h6{
-
-        font-size:15px;
+        font-size:14px;
        
-    }
-
-    .first_cert{
-        margin-bottom:30px;   
     }
 
     .cert{
@@ -151,29 +120,30 @@
 
     }
 
+    .cert{
+
+        margin-top: -15px;
+    }
+
     .cert_contents{
         display: block;
         left:10px;
-        top:18px;
+        top:-20px;
     }
 
-    .box{
+    .boxs{
 
-        padding:7px;
+        padding:4px;
         
     }
 
-    .box>h5{
 
-        font-size: 13px;
-    }
-
-    .box>h4{
+    .boxs>h4{
 
         font-size:18px;
     }
 
-    .box>h6{
+    .boxs>h6{
 
         font-size:13px;
        
@@ -205,28 +175,29 @@
 
     }
 
-    .cert_contents{
-        left:8px;
-        top:0px;
+    .cert{
+
+        margin-top:5px;
     }
 
-    .box{
+    .cert_contents{
+        left:8px;
+        top:-15px;
+    }
 
-        padding:7px;
+    .boxs{
+
+        padding:4px;
         
     }
 
-    .box>h5{
 
-        font-size: 13px;
-    }
-
-    .box>h4{
+    .boxs>h4{
 
         font-size:17px;
     }
 
-    .box>h6{
+    .boxs>h6{
 
         font-size:14px;
        
@@ -240,21 +211,6 @@
     }
 
 
-    .box::before{
-
-        width: 14px;
-        height: 14px;
-        right: calc(100% + 15px);
-       
-    }
-
- .second_cert,.first_cert{
-
-    margin-left:18px;
- }
-
-
-
  .cert_hr{
     right:-15px;
     
@@ -263,18 +219,17 @@
 }
 
 
-
 @media (max-width:430px) {
 
 
     .cert_contents{
         left:8px;
-        top:0px;
+        top:-15px;
     }
 
-    .box{
+    .boxs{
 
-        padding:8px;
+        padding:4px;
         
     }
 
