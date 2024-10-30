@@ -95,7 +95,6 @@ const Skills = () =>{
                     </div>
 
                 </div>
-
             </div>
             <hr className="skills_hr"></hr>
         </div>
