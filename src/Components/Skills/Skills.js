@@ -56,7 +56,7 @@ const Skills = () =>{
             {/*=======================Teaching Skills ==================*/}
 
 
-            <div className="skills-column">
+            <div className="skills-column tech_cols">
                     <div className="title">Teaching Skills</div>
 
                     <div className="skills-box">
@@ -97,6 +97,7 @@ const Skills = () =>{
                 </div>
 
             </div>
+            <hr className="skills_hr"></hr>
         </div>
     );
 };

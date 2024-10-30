@@ -147,3 +147,110 @@
 
     width: 40%;
 }
+
+
+
+
+
+/*========================== Media Query ===============================*/
+
+
+@media (max-width:750px) {
+
+    .skills .skills-row{
+        width:95%;
+        left:10px;
+    }  
+    
+}
+
+
+@media (max-width:520px) {
+
+    .heading{
+        font-size:25px;
+        margin-left: -185px;
+    }
+
+    .skills{
+        top: 350px;
+    }
+
+    .skills .skills-row{
+        width:81%;
+        left:70px;
+        display: block;
+        top:-25px
+    }  
+    
+
+    .skills-column .title{
+
+        font-size: 1.1rem;
+        margin: 0 0 .1rem;
+    
+    }
+
+    .skills-row .skills-column{
+
+        top: 40px;
+  
+    }
+
+    .tech_cols{
+
+        margin-top: 30px;
+    }
+
+    .skills-content .progress_div{
+
+        padding: .3rem 0;
+    
+    }
+
+    .skills_hr{
+
+        margin-top:97px;
+    }
+    
+}
+
+@media (max-width:390px) {
+
+    .heading{
+        font-size:23px;
+        margin-left: -135px;
+    }
+
+
+    .skills .skills-row{
+        width:80%;
+        left:40px;
+    }  
+    
+
+    .skills-column .title{
+
+        font-size: .8rem;
+    
+    }
+
+    .skills-row .skills-column{
+
+        top: 45px;
+  
+    }
+
+    .tech_cols{
+
+        margin-top:20px;
+    }
+
+
+    .skills-content .progress_div{
+
+        padding: .2rem 0;
+    
+    }
+    
+}
