@@ -14,8 +14,6 @@
     animation: slider 8s linear infinite 0s;
     animation-timing-function: ease-in-out;
     background-repeat: no-repeat;
-   
-    z-index: -9999;
     
    }
   
@@ -81,11 +79,22 @@
   
 .icons{
 
-  font-size:19px;
+  font-size:12px;
   margin-top: 50px;
-  display: flex;
-  gap: 20px;
   
+}
+
+.icons>button{
+
+  font-weight: 400;
+  color: white;
+  background-color: rgb(213, 58, 58);
+  border-radius:18px;
+  padding:10px;
+  width:9rem;
+  border: none;
+  text-decoration-line: none;
+  text-align: center;
 }
   
   

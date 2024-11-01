@@ -6,7 +6,7 @@ const Skills = () =>{
 
     return(
 
-        <div className="skills">
+        <div className="skills" id="skills">
 
             <div className="heading">My <span>Skills</span></div>
 

@@ -7,7 +7,7 @@ import { FaTableCellsColumnLock } from "react-icons/fa6";
 
 const Project = () => {
   return (
-    <div className="pro_div">
+    <div className="pro_div" id="project">
             <div className="qutoes">"Management is,above all,apractice where art,science and craft meet."</div>
       <div className="pro">Project</div> 
   

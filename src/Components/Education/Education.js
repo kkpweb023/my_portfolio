@@ -6,7 +6,7 @@ const Education = () =>{
 
     return(
 
-        <div className="edu_div">
+        <div className="edu_div" id="education">
             <div className="edu">Education</div>
 
 

@@ -1,7 +1,6 @@
 import React,{useContext } from "react";
 import './AppBar.css';
 import { Nav,Navbar } from "react-bootstrap";
-import {NavLink } from "react-router-dom";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Container from "react-bootstrap/Container";
 import { MyContext } from "../App";
@@ -18,6 +17,7 @@ function AppBar() {
             <Navbar 
             expand={"sm"}
             variant="light"
+            style={{position:"sticky",top:"0px",zIndex:"99"}}
             > 
 
             <Container fluid>
@@ -60,8 +60,7 @@ function AppBar() {
                  {/*====================== Home ======================== */}
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#home"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
@@ -70,8 +69,7 @@ function AppBar() {
                         </Nav.Link>
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#about"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
@@ -81,8 +79,7 @@ function AppBar() {
 
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#education"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
@@ -92,8 +89,7 @@ function AppBar() {
 
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#experience"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
@@ -103,8 +99,7 @@ function AppBar() {
 
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#skills"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
@@ -114,8 +109,7 @@ function AppBar() {
 
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#certificate"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
@@ -126,19 +120,17 @@ function AppBar() {
 
                         
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#project"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >
                         <i className="bi bi-house-door-fill"></i>
-                        <span>Porject</span>
+                        <span>Project</span>
                         </Nav.Link>
 
 
                         <Nav.Link
-                        as={NavLink}
-                        to="/"
+                        href="#contact"
                         className="app_menu"
                         onClick={() => setShowMob(false)}
                         >

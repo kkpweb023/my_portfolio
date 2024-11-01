@@ -2,17 +2,28 @@ import React from "react";
 import "./Home.css";
 import ProfileLogo from '../../Images/ProfileLogo.jpg';
 import { ReactTyped } from "react-typed";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaWhatsappSquare } from "react-icons/fa";
-import { IoCall } from "react-icons/io5";
+import { IoMdDownload } from "react-icons/io";
 
+import PDF_FILE from '../../Images/Resume.pdf';
 
 const Home = () => {
+
+  const download_Resume = (url) => {
+
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a")
+    aTag.href = url;
+    aTag.setAttribute("download",fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+
+  };                            
+
   return (
 
     <>
-    <div className="Home_div">
+    <div className="Home_div" id="home">
 
       <div className="home_content">
         <div className="Quates_Content">
@@ -37,11 +48,7 @@ const Home = () => {
 
 
           <div className="icons" >
-            <FaFacebookSquare />
-            <FaLinkedin />
-            <FaWhatsappSquare />
-            <IoCall />
-           
+            <button onClick={()=>download_Resume(PDF_FILE)}><IoMdDownload /> DOWNLOAD CV</button>
           </div>
          
 

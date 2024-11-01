@@ -6,7 +6,7 @@ const Certificate = () =>{
 
     return(
 
-        <div className="cert_div">
+        <div className="cert_div" id="certificate">
             <div className="cert">Certificate</div>
 
 
