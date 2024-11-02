@@ -17,7 +17,7 @@ const Project = () => {
             <span className="icon"><FaUserGraduate /></span>
           </div>
             <h5>E-Learning</h5>
-            <a href="https://kkpweb023.github.io/my_school/" rel="noopener">Visit Us</a>
+            <a href="https://kkpweb023.github.io/my_school/" target="_blank" rel="noreferrer">Visit Us</a>
         </div>
 
         <div className="pro_box">
@@ -25,7 +25,7 @@ const Project = () => {
           <span className="icon"><WiDayThunderstorm /></span>
            </div>
             <h5>Weather Forecast</h5>
-            <a href="https://kkpweb023.github.io/reactJS/weather" rel="noopener">Visit Us</a>
+            <a href="https://kkpweb023.github.io/reactJS/weather" target="_blank" rel="noreferrer">Visit Us</a>
 
         </div>
 
@@ -34,7 +34,7 @@ const Project = () => {
           <span className="icon"><TiShoppingCart /></span>
           </div>
             <h5>E-Commerce</h5>
-            <a href="https://kkpweb023.github.io/e-commerce/" rel="noopener">Visit Us</a>
+            <a href="https://kkpweb023.github.io/e-commerce/" target="_blank" rel="noreferrer">Visit Us</a>
         </div>
 
         <div className="pro_box">
@@ -42,7 +42,7 @@ const Project = () => {
           <span className="icon"><FaTableCellsColumnLock /></span>
           </div>
             <h5>Table Pagination</h5>
-            <a href="https://kkpweb023.github.io/reactJS/tablePagi" rel="noopener">Visit Us</a>
+            <a href="https://kkpweb023.github.io/reactJS/tablePagi" target="_blank" rel="noreferrer">Visit Us</a>
         </div>
       </div>
       <hr className="pro_hr"></hr>

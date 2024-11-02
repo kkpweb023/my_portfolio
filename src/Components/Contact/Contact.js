@@ -4,6 +4,7 @@ import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 
 
+
 const Contact = () => {
 
 
@@ -20,10 +21,10 @@ const Contact = () => {
       <div className="cont_logo">
         <span className="find">Find me on:</span>
           <span className="contact_icons" >
-            <FaFacebookSquare />
-            <FaLinkedin />
-            <FaGithubSquare />
-            <IoCall />
+            <a href="https://www.facebook.com/26kaushal.pandey11/"><FaFacebookSquare /></a>
+            <a href="https://www.linkedin.com/in/kaushal-pandey-kkp023/"><FaLinkedin /></a>
+            <a href="https://github.com/kkpweb023"><FaGithubSquare /></a>
+            <a href="tel:+91-831-7022-554"><IoCall /></a>
           </span>
       </div>
 
