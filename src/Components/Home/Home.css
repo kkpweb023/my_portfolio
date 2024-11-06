@@ -245,7 +245,7 @@
      
      
      .message{
-       width:140%;
+       width:120%;
        text-align: justify;
 
      }
@@ -286,8 +286,14 @@
     }
 
     .message{
-      width:150%;
+      width:100%;
    
+    }
+
+    .icons{
+
+      margin-top:30px;
+      
     }
 
     .home_hr{
@@ -306,7 +312,7 @@
       height:250px;
      } 
     .message{
-      width:138%;
+      width:108%;
       font-size: 15px;
    
     }
@@ -332,9 +338,17 @@
       top:620px;
      }
 
+     .Quates_Content{
+      position: relative;
+      top:140px;
+      right:135px;
+    }
+  
 
-     .icons{
 
-      margin-top:40px;
+    .message{
+      width:80%;
+      font-size: 15px;
+   
     }
   }
