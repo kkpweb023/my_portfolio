@@ -8,7 +8,19 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-@media (max-width: 767px) {
+
+@media (max-width:1150px) {
+  .nav_bar {
+    margin-left:40px;
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+@media (max-width: 800px) {
   .nav_bar {
     display: none;
   }

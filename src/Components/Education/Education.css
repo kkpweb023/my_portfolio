@@ -78,9 +78,20 @@
     right:0px;
  }
 
+@media (max-width:1120px) {
+
+    
+    .edu_div{
+
+        width: 90vw;
+
+    }
 
 
-@media (max-width:770px) {
+    
+}
+
+@media (max-width:832px) {
 
 
     .edu_div{

@@ -80,7 +80,16 @@
     right:0px;
  }
 
+@media (max-width:1120px) {
 
+    .exp_div{
+
+        width: 90vw;
+
+    }
+
+    
+}
 
 @media (max-width:770px) {
 

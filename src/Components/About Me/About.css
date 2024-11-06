@@ -47,6 +47,32 @@
 /*===============Media Query=======================*/
 
 
+@media (max-width:1100px) {
+
+    .img_about{
+
+        width: 220px;
+        height:278px;
+        margin-top: 45px;
+    }
+
+    .about_div{
+
+        margin-left:120px;
+    }
+
+    .about_profile{
+
+        font-size:17px;
+        width:35rem;
+    }
+
+
+
+}
+
+
+
 @media (max-width:760px) {
 
     .img_about{

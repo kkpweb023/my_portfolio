@@ -146,7 +146,49 @@
 
 
 
-  @media (max-width:760px) {
+@media (max-width:1120px) {
+
+  .img{
+    width:340px;
+    height:320px;
+  }  
+
+
+  .Quates_Content{
+
+    margin-top: -10px;
+    margin-right:-45px;
+    width:320px;
+  }
+
+  .Quates{
+
+    font-size: 24px;
+  }
+
+  .proffesion{
+
+    font-size: 17px;
+  }
+
+  .message{
+
+    font-size:16px;
+    text-align: justify;
+  }
+
+  .icons{
+
+    margin-top:25px;
+  }
+
+}
+
+
+
+
+
+  @media (max-width:800px) {
   
     .home_content{
         display: flex;
@@ -162,10 +204,10 @@
 
 
    .img{
-    width:300px;
-    height:280px;
+    width:290px;
+    height:270px;
     order: 1;
-    margin-top: -4px;
+    margin-top: -3px;
 
    } 
    
@@ -176,12 +218,12 @@
    .message{
      width:100%;
      text-align: justify;
-     font-size:16px;
+     font-size:15px;
    }
 
    .icons{
 
-    margin-top:20px;
+    margin-top:10px;
 
    }
 
@@ -211,7 +253,7 @@
 
      .icons{
 
-      margin-top: 20px;
+      margin-top: 10px;
     }
      .home_hr{
       margin-bottom:50px;

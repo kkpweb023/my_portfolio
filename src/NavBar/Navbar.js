@@ -24,14 +24,14 @@ const NavBar = () =>{
 
 
                     <Nav className="me-auto nav_bar">
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#home' className="menu">Home</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#about' className="menu">About Me</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#education' className="menu">Education</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#experience' className="menu">Exprience</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#skills' className="menu">Skills</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#certificate' className="menu">Certificate</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} href='#project' className="menu">Project</Nav.Link>
-                        <Nav.Link activeClass='active' spy={true} smooth={true} href='#contact' className="menu">Contact Us</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#home' className="menu">Home</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#about' className="menu">About Me</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#education' className="menu">Education</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#experience' className="menu">Exprience</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#skills' className="menu">Skills</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#certificate' className="menu">Certificate</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} offset={-70} duration={500} href='#project' className="menu">Project</Nav.Link>
+                        <Nav.Link activeclass='active' spy={'true'} smooth={'true'} href='#contact' className="menu">Contact Us</Nav.Link>
                     </Nav>
 
 

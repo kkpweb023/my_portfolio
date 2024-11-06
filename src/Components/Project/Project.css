@@ -110,6 +110,51 @@
 /*================Media Queries ==========================*/
 
 
+
+@media (max-width:1120px) {
+
+    .pro_contents{
+
+        width: 46rem; 
+        margin-left: -36px;   
+    }
+
+
+    .pro_box{
+             
+        padding:16px;
+        margin-right:28px;
+        position: relative;
+        width: 13rem;
+        height: 11rem;
+    }
+
+    .pro_box>h5{
+
+        font-size: 16px;
+    }
+
+
+    .pro_box>a{
+
+        border-radius:17px;
+        padding:4px;
+        width: 8rem;
+
+    }
+
+    .pro_hr{
+        position:absolute;
+        bottom:20px;
+        right:-60px;
+     }
+
+}
+
+
+
+
+
 @media (max-width:770px) {
 
 

@@ -33,7 +33,7 @@ function App() {
         <About />
         <Education  />
         <Experience />
-        <Skills />
+        <Skills /> 
         <Certificate />
         <Project />
         <Contact />

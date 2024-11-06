@@ -155,7 +155,7 @@
 /*========================== Media Query ===============================*/
 
 
-@media (max-width:750px) {
+@media (max-width:1050px) {
 
     .skills .skills-row{
         width:95%;

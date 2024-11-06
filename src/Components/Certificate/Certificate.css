@@ -57,7 +57,34 @@
 
 
 
-@media (max-width:770px) {
+ @media (max-width:1120px) {
+
+    
+    .cert_div{
+
+        width: 90vw;
+
+    }
+
+    .boxs{
+             
+        padding:8px;
+        margin-right:40px;
+        margin-left:5px;
+    }
+
+
+    .cert_hr{
+
+        position:absolute;
+        right:-62px;
+     }
+
+    
+ }
+
+
+@media (max-width:790px) {
 
 
     .cert_div{

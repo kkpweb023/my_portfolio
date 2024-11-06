@@ -9,7 +9,6 @@ const Education = () =>{
         <div className="edu_div" id="education">
             <div className="edu">Education</div>
 
-
             <div className="edu_contents">
 
                 <div className="secondary">
