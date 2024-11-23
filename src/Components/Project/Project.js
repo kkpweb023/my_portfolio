@@ -34,7 +34,7 @@ const Project = () => {
           <span className="icon"><TiShoppingCart /></span>
           </div>
             <h5>E-Commerce</h5>
-            <a href="https://kkpweb023.github.io/e-commerce/" target="_blank" rel="noreferrer">Visit Us</a>
+            <a href="https://kkpweb023.github.io/e_commerce/" target="_blank" rel="noreferrer">Visit Us</a>
         </div>
 
         <div className="pro_box">
